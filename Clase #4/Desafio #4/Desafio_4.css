@@ -42,3 +42,7 @@ i{
     color:#f90505; 
     font-size: 100px; 
 }
+
+span{
+    border: 2px solid red;
+}
