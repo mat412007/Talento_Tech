@@ -46,3 +46,7 @@ i{
 span{
     border: 2px solid red;
 }
+
+a{
+    text-decoration: none;
+}
