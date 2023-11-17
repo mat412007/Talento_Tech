@@ -9,10 +9,11 @@ h2{
 }
 
 p{
-    width: 500px;
+    display: flex;
+    justify-content: center;
 }
 
-div{
+div div{
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -27,4 +28,12 @@ body{
 
 #modificado{
     font-family: 'Montserrat', sans-serif;
+}
+
+p a{
+    color: aqua;
+}
+
+#origen{
+    font-size: 20px;
 }
