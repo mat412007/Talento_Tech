@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="line-height: 30px;">
+    <h1>Clase 2</h1>
+    <h2>HTML semántico</h2>
+    <p>
+        El HTML semántico es una práctica de estructuración y etiquetado de código HTML que busca dar un significado y contexto semántico a los elementos y contenido de una página web. Se utilizan etiquetas específicas que describen el propósito y la función de cada elemento. <br>
+        El HTML semántico tiene varios beneficios: 
+        <ul style="line-height: 40px;">
+            <li><b>Mejora la accesibilidad:</b> Al utilizar etiquetas semánticas apropiadas, se facilita la comprensión de la estructura y el contenido de una página web para los usuarios que dependen de tecnologías de asistencia, como lectores de pantalla.</li>
+            <li><b>Mejora el SEO:</b> Los motores de búsqueda utilizan la estructura semántica del HTML para comprender y clasificar el contenido de una página web. Al utilizar etiquetas semánticas, se facilita la indexación y el posicionamiento en los resultados de búsqueda.</li>
+            <li><b>Facilita el mantenimiento y la colaboración:</b> Un código HTML semántico y bien estructurado es más fácil de mantener y entender, lo que facilita el trabajo en equipo y la colaboración en proyectos web.</li>
+            <li><b>Mejora la legibilidad y comprensión del código:</b> Al utilizar etiquetas semánticas, el código HTML se vuelve más descriptivo y comprensible, lo que facilita su lectura y comprensión tanto para desarrolladores como para otros interesados en el proyecto.</li>
+        </ul>
+    </p>
+    <p>
+        Algunos ejemplos de etiquetas HTML semánticas son <b>&ltheader&gt, &ltnav&gt, &ltmain&gt, &ltsection&gt, &ltarticle&gt, &ltaside&gt, &ltfooter&gt</b>, entre otras. Cada una de estas etiquetas tiene un propósito específico y ayuda a definir la estructura y el significado del contenido de una página web.
+    </p>
+    <img src="https://aprendeprogramando.bue.edu.ar/pluginfile.php/238859/mod_page/content/28/semantica-html%20%281%29.gif" alt="Diagrama de etiquetas">
+    <h2>Bloques vs Líneas</h2>
+    <p>
+        En HTML existen dos tipos principales de etiquetas: las etiquetas de línea (inline) y las etiquetas de bloque (block). Estas etiquetas determinan cómo se comporta y se muestra el contenido dentro de un documento HTML pero no tienen una función específica, sino que sólo sirven como contenedores de más elementos. La diferencia existe en el espacio que ocupan en la pantalla, y en las características que se les agregue en CSS, cómo margin o padding. (éstas últimas dos las veremos más adelante). <br>
+        <mark><b>Etiquetas de línea:</b></mark> Las etiquetas de línea son utilizadas para envolver y aplicar estilos a contenido dentro de un flujo de texto. No generan saltos de línea y se muestran en línea con el texto circundante. Estas etiquetas son ideales para aplicar estilos a partes específicas del texto, como resaltar una palabra, agregar enlaces o incluir imágenes dentro de una oración. <br>
+        <mark><b>Etiquetas de bloque:</b></mark> Las etiquetas de bloque generan un bloque de contenido que ocupa todo el ancho disponible en su contenedor. Por defecto, cada etiqueta de bloque comienza en una nueva línea y crea un espacio vertical entre elementos adyacentes. Estas etiquetas se utilizan para estructurar y agrupar secciones de contenido en un documento HTML. Pueden contener tanto etiquetas de línea como otras etiquetas de bloque. <br>
+        Es importante tener en cuenta que la visualización de las etiquetas de línea y de bloque puede ser modificada mediante estilos CSS, lo que permite personalizar su apariencia y comportamiento para convertir de línea a bloque, usamos <b>display: block</b>, y para convertir de bloque a línea, usamos <b>display: inline</b>. 
+    </p>
+    <h2>DIV y SPAN</h2>
+    <p>
+        Al momento de pensar el diseño del sitio web y a medida que se agregan características en CSS, nos damos cuenta que hay elementos que precisan ser agrupados para poder darles estilo de manera conjunta. También sucede que hay pequeñas partes, como palabras claves dentro de un texto o algunos links que tienen características propias. Para ello, para organizar el contenido, se utilizan contenedores, es decir, unas cajas invisibles que sirven para agrupar elementos dentro del html y que luego podemos otorgar atributos visuales desde CSS. <b>Estos contenedores se llaman div y span y son claves al momento de escribir código</b>. La diferencia principal entre estos dos contenedores son:
+        <ul style="line-height: 35px;">
+            <li>&ltdiv&gt ocupa el 100% de la fila en la que se encuentra, mientras que &ltspan&gt abarca únicamente el espacio de su contenido, ni más ni menos.</li>
+            <li>&ltdiv&gt acepta cualquier tipo de etiqueta en su interior, ya sea de línea o de bloque, mientras que &ltspan&gt solo acepta etiquetas de línea.</li>
+        </ul>
+    </p>
+    <h2>Enlaces</h2>
+    <p>
+        ¿Alguna vez dijiste "pasame el link" y te mandaron algo escrito muy largo, de color azul y casi ilegible?. Ese link se lo conoce como URL (Uniform Resource Locator, que en español significa Localizador Uniforme de Recursos) y es la ubicación exacta de dónde se encuentra cualquier elemento que se esté en internet, es decir, la ruta. Todo elemento tiene su propia ruta, como una imágen, un video, un sitio web entero, un punto de un mapa, etc. En las páginas web los enlaces o links son esenciales para permitir la “navegabilidad” por internet. En este tema aprenderemos la diferencia entre rutas absolutas y rutas relativas, que son dos maneras o caminos diferentes  para llegar al elemento que queremos, y los incorporaremos al proyecto. Hay dos tipos de rutas: absolutas y relativas.
+        <ul style="line-height: 35px;">
+            <li><b>Rutas absolutas:</b> especifican la ubicación exacta de un recurso en Internet utilizando una dirección completa. Se compone de todos los componentes necesarios para acceder al recurso, incluyendo el protocolo, dominio, ruta, y cualquier otro que haga falta.</li>
+            <li><b>Rutas relativas:</b> especifican la ubicación de un archivo o recurso en relación con la ubicación actual del archivo HTML en el que se encuentra. Por ejemplo: "../imagenes/imagen1.jpg".</li>
+        </ul>
+    </p>
+    <p>
+        Para insertar un enlace(link) en una página web, usamos la etiqueta <b>&lta&gt</b>, su contenido es lo que se debe clickear para interactuar con el enlace, y su atributo <b>href=""</b> específica el URL a donde lleva. Un enlace también puede llevarte a otra parte de la página web, siempre y cuando estén dentro del directorio principal. <br>
+        La etiqueta anchor también cuenta con el atributo <b>target=""</b>, este especifíca como se abrirá el enlace cuando el usuario haga click en él. Sus valores más populares son:
+        <ul>
+            <li><b>_self:</b> es el valor predeterminado, el enlace se abre en la misma ventana del documento.</li>
+            <li><b>_blank:</b> el enlace se abrirá en una nueva pestaña.</li>
+            <li><b>_parent:</b> el enlace se abrirá en el marco o ventana padre en caso de que el documento tenga frames o iframes.</li>
+            <li><b>_top:</b> el enlace se abrirá en la ventana principal, reemplazando cualquier frame o iframe existente.</li>
+        </ul>
+    </p>
+</body>
+</html>

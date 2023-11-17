@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Clase 3</h1>
+    <h2>¿Cómo se escribe CSS? </h2>
+    <p>
+        CSS (Cascading Style Sheets) es un lenguaje de estilo utilizado para describir la presentación y el diseño de un documento HTML o XML. Se utiliza para definir cómo se ven los elementos y componentes de una página web, incluyendo el color, la tipografía, el tamaño, el espaciado, el diseño y otros aspectos visuales. El primer paso en este curso fue completar el esqueleto del sitio web. Ahora, llega el momento de darle color a todo esto. El primer paso es conocer la estructura de CSS, cómo se escribe. Luego, veremos cómo incorporarlo al esqueleto. <br>
+        Cada característica tiene un <b>selector,  propiedad, y  valor</b>. <br>
+        <b>
+            h1{ <br>
+                color: red; <br>
+            } <br>
+        </b>
+        Por ejemplo:
+        <ul>
+            <li><b>text-decoration: underline;</b></li>
+            <li><b>color: grey;</b></li>
+            <li><b>border: 2px solid red;</b></li>
+            <li><b>background-color: goldenrod;</b></li>
+        </ul>
+    </p>
+    <h2>Implementando CSS</h2>
+    <p>
+        Existen varias maneras de relacionar, entrelazar, juntar, linkear el esqueleto del sitio con su cuerpo, el HTML con el CSS, y varias de estas maneras son incorrectas. Aun así es importante conocerlas ya que puede suceder que te topes con algún sitio web que aún las utilice o que al momento de trabajar sobre otro proyecto ya existente tenga estas metodologías. En este apartado veremos las formas correctas e incorrectas de implementar CSS. <br>
+        Hay 3 maneras de aplicar CSS:
+        <ul>
+            <li>Estilos en línea</li>
+            <li>La etiqueta &ltstyle&gt</li>
+            <li>La etiqueta &ltlink&gt</li>
+        </ul> 
+        La etiqueta &ltlink&gt tiene 2 atributos:
+        <ul>
+            <li><b>rel:"":</b> especifíla relación entre el documento actual, y el recurso entrelazado.</li>
+            <li><b>href:"":</b> especifíca la ubicación del recurso externo que se va a enlazar.</li>
+        </ul>
+    </p>
+    <h2>Propiedades para textos y fondos</h2>
+    <p>
+        En este tercer tema veremos con un poco más de profundidad y detenimiento algunas propiedades más utilizadas que son las de color y fondo. Ambas son las primeras en retocarse y las que comienzan a definir un poco la “personalidad” o el “humor” del sitio web. Una paleta de colores es una colección de colores seleccionados y organizados de manera armoniosa. Se utiliza en diseño gráfico, diseño web y otras disciplinas creativas para elegir y combinar colores de forma coherente y estética. Además, ayuda a transmitir emociones, establecer la identidad de una marca y crear una experiencia visual cohesiva. Teniendo una paleta seleccionada es más fácil su aplicación desde el código. Por otro lado también se verá cómo modificar otros aspectos de los fondos y otros aspectos de los textos, como su tamaño, su peso, etc. <br>
+        Las propiedades de texto son:
+        <ul>
+            <li><b>font-family</b>: tipo de letra.</li>
+            <li><b>font-size</b>: tamaño de letra.</li>
+            <li><b>font-weight</b>: grosor de la letra.</li>
+            <li><b>font-style</b>: estilo del texto, como cursiva o inclinada.</li>
+            <li><b>text-align</b>: alineación del texto, izquierda, derecha, centrado, o justificado.</li>
+            <li><b>text-decoration</b>: agrega decoraciones al texto, como subrayado o tahcado.</li>
+            <li><b>text-transform</b>: cambia la capitalización del texto.</li>
+            <li><b>line-height</b>: altura de las líneas de texto.</li>
+            <li><b>letter-spacing</b>: espacio entre los carácteres del texto.</li>
+        </ul>
+        Las propiedades de fondo son:
+        <ul>
+            <li><b>background-color:</b></li>
+            <li><b>background-image: url()</b></li>
+            <li><b>background-repeat:</b></li>
+            <ul>
+                <li><b>repeat;</b> la imagen se repite horizontal y verticalmente.</li>
+                <li><b>repeat-x;</b> la imagen se repite horizontalmente.</li>
+                <li><b>repeat-y;</b> la imagen se repite verticalmente.</li>
+                <li><b>no-repeat;</b> la imagen no se repite.</li>
+            </ul>
+            <li><b>background-position:</b> especifíca la posición inicial de la imagen de fondo, ya sea; left, right, top, bottom, center.</li>
+            <li><b>background-size: especifica el tamaño de la imagen de fondo, ya sea en pixeles, porcentaje, auto, cover, contain.</b></li>
+            <li><b>background-attachment:</b> indica si la imagen de fondo se desplaza con el contenido de la página o no.</li>
+            <ul>
+                <li><b>scroll;</b> la imagen se desplaza con el contenido.</li>
+                <li><b>fixed;</b> la imagen se mantiene fija en su posición.</li>
+                <li><b>local;</b> la imagen de fondo se desplaza junto con el contenido de su contenedor.</li>
+            </ul>
+        </ul>
+        <h2>Clases</h2>
+        <p>
+            Ya pusimos en práctica algunas propiedades y como vimos, muchos elementos cambian características a la vez. Quizás existan partes en específico que no queramos que se vean así, como todos los &lth2&gt, o todo los &ltp&gt. Para hacer que no todos estos elementos tengan las mismas características se utilizan las clases, que son selectores especiales asignados a cada elemento en particular para que posea propiedades únicas. Son muy fáciles de usar y serán necesarias a lo largo de todo el curso. 
+        </p>
+        <p><b>Recursos para componer paletas de colores son:</b></p>
+        <ul>
+            <li><b><a target="_blank" href="https://coolors.co/">Coolors</a></b></li>
+            <li><b><a target="_blank" href="https://htmlcolorcodes.com/es/">HTML Color Codes</a></b></li>
+            <li><b><a target="_blank" href="https://colorhunt.co/palettes/popular">Color Hunt</a></b></li>
+        </ul>
+    </p>
+</body>
+</html>

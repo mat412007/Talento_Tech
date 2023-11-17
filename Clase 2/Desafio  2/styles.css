@@ -1,0 +1,42 @@
+p{
+    font-size: 17px;
+    margin: 10px;
+}
+header{
+    border: 2px blue solid;
+    display: flex;
+}
+#Águila-real{
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img{
+    width: 400px;
+}
+#ejemplos{
+    margin-top: 40px;
+}
+main{
+     margin-top: 20px;
+    border: 2px solid green;
+}
+aside{
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 25%;
+    height: 250px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: right;
+}
+.sector{
+    display: flex;
+    margin: 15px;
+}
+h2{
+    text-align:left;
+    margin-left: 100px;
+}
