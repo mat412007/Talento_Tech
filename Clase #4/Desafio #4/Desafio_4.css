@@ -4,7 +4,7 @@ h1{
 }
 
 p{
-    width: 700px;
+    width: 800px;
 }
 
 div{
@@ -14,7 +14,7 @@ div{
 
 body{
     background-image: url('https://as2.ftcdn.net/v2/jpg/05/72/63/87/1000_F_572638706_7D6rgEbqp1t1ScGlrHUeNzxfTy3Wqflx.jpg');
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: aqua;
