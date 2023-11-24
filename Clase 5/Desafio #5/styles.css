@@ -1,0 +1,42 @@
+h1, h2, p, li{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+div{
+    border: 2px solid green;
+    margin: 10px;
+}
+
+span{
+    border: 2px solid red;
+}
+
+#content-box{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border: 20px solid orange;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#border-box{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 20px solid orange;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
