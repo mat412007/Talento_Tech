@@ -9,32 +9,38 @@
 <body>
     <h1><u>Desafío #5</u></h1>
     <h2><u>Margin y Padding</u></h2>
-    <div style="display: flex; justify-content: center; border: none;">
+    <div  style="display: flex; justify-content: space-around; border: none;">
         <div>
-             <p>
-                 <span>Texto sin CSS</span>
-             </p>
-             <p style="margin: 30px;">
-                 <span>Texto con margen de 30px</span>
-             </p>    
-             <p style="margin: 50px;">
-                 <span>Texto con margen de 50px</span>
-             </p>
+            <div style="display: flex; justify-content: center; border: none;">
+                <div>
+                     <p>
+                         <span>Texto sin CSS</span>
+                     </p>
+                     <p style="margin: 30px;">
+                         <span>Texto con margen de 30px</span>
+                     </p>    
+                     <p style="margin: 50px;">
+                         <span>Texto con margen de 50px</span>
+                     </p>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center; border: none;">
+                <div>
+                     <p>
+                         <span>Texto sin CSS</span>
+                     </p>
+                     <p style="background-color: yellow; padding: 30px;">
+                         <span>Texto con relleno de 30px</span>
+                     </p>    
+                     <p style="background-color: yellow; padding: 50px;">
+                         <span>Texto con relleno de 50px</span>
+                     </p>
+                </div>
+            </div>
         </div>
+        <img src="./../../imagenes/Águila-digital.jpg" alt="Águila cibernética">
     </div>
-    <div style="display: flex; justify-content: center; border: none;">
-        <div>
-             <p>
-                 <span>Texto sin CSS</span>
-             </p>
-             <p style="background-color: yellow; padding: 30px;">
-                 <span>Texto con relleno de 30px</span>
-             </p>    
-             <p style="background-color: yellow; padding: 50px;">
-                 <span>Texto con relleno de 50px</span>
-             </p>
-        </div>
-    </div>
+    
     <h2><u>Box Sizing</u></h2>
     <p>Código: <br>
         <ul>
@@ -71,7 +77,12 @@
             </li>
             <br>
             <li><b>fixed</b>: los elementos con esta posición se quedan fijos en la página incluso si esta se mueve, todo en relación de la ventana del navegador. Para setear su posición se usa left, right, top, y bottom.</li>
+            <br>
+            <li><b>sticky</b>: los elementos con esta posición se comportan como relative hasta que en cierta posición de la ventana del navegador se vuelven fixed. Esta posición es seteada con top, bottom, right y left.</li>
         </ul>
+    </p>
+    <p>
+        Tambien tenemos la propiedad z-index. Esta controla la posición de los elementos en el eje z, determina como y en qué orden se apilan. Su valor puede ser un número entero o la palabra clave auto.
     </p>
 </body>
 </html>
