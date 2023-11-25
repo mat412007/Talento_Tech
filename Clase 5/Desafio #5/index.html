@@ -52,5 +52,26 @@
             <p><b>box-sizing: border-box;</b></p>
         </div>
     </div>
+    <h2><u>Contenedor límite</u></h2>
+    <p><span style="border: 2px solid red;">Uso de <b>max-width</b> y <b>margin: 0 auto</b>.</span></p>
+    <p style="border: 2px solid black; max-width: 70%; margin: 0 auto;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, labore maiores dicta delectus sed rem fugiat explicabo obcaecati consectetur repellendus, vel error quod veritatis saepe? Vero laborum asperiores repellat sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatum, ipsam rem praesentium dicta dignissimos quod vero eveniet nulla perferendis fugiat facere, quibusdam iusto quisquam dolore doloribus magnam sit? Adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia accusamus totam a exercitationem suscipit ad, soluta vero adipisci nesciunt vel corporis inventore perspiciatis ab rem quasi est voluptas ipsum error? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, ab mollitia! Voluptatum cupiditate pariatur architecto aspernatur voluptatem dignissimos sed doloremque nemo veritatis! Esse cum nam earum blanditiis sequi, quisquam tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quae quasi unde a praesentium aliquam corrupti hic incidunt pariatur dolorem inventore, recusandae ex consequatur reiciendis debitis, voluptatum cupiditate quo eius.
+    </p>
+    <h2><u>Posicionamientos</u></h2>
+    <p>
+        Ahora vamos a ver la propiedad de CSS: position.<br>
+        Esta propiedad se utiliza para ver de como se posiciona un elemento en comparación de los otros. Sus valores posibles son:
+        <ul style="max-width: 70%; margin: 0 auto;">
+            <li><b>static</b>: los elementos con este valor se posicionan según el flujo normal del documento, y propiedades como left, right, top y bottom no los afectan.</li>
+            <br>
+            <li><b>relative</b>: los elementos se posicionan según su posición normal. Las propiedades como left, right, top, bottom tienen efecto según su posición original.</li>
+            <br>
+            <li><b>absolute</b>: los elementos con esta posición se posicionan en relación con el elemento padre que tenga una posición distinta a static. Si no existe se toma el elemento body. De esta manera se puede definir la posición exacta del elemento mediante el uso de left, roght, top, bottom. <br>
+            Para centrar por completo un elemento en este tipo de posición, se usa la propiedad calc() de CSS y decimos el objeto se mueva un 50% menos la mitad del elemento. Por ejemplo: left: calc(50% - 50px).
+            </li>
+            <br>
+            <li><b>fixed</b>: los elementos con esta posición se quedan fijos en la página incluso si esta se mueve, todo en relación de la ventana del navegador. Para setear su posición se usa left, right, top, y bottom.</li>
+        </ul>
+    </p>
 </body>
 </html>
