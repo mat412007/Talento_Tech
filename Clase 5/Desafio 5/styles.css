@@ -47,3 +47,22 @@ nav{
 main{
     background-color: chartreuse;
 }
+
+h2{
+    margin-top: 50px;
+}
+
+table *{
+    border: 1px solid black;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    padding: 15px;
+    font-size: 17px;
+}
+
+caption{
+    font-size: 20px;
+    padding: 15px;
+}
