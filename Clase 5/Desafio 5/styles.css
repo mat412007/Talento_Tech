@@ -13,7 +13,9 @@ header *{
 }
 
 p{
-    font-size: 18px;
+    font-size: 18px; 
+    display: flex;
+    justify-content: center;
 }
 
 #calendario-digital{
@@ -65,4 +67,9 @@ table, th, td{
 caption{
     font-size: 20px;
     padding: 15px;
+}
+
+#formulario *{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
