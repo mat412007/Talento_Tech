@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio #8</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <nav style="position: sticky; top: 10px;">
+        <ul id="navegacion">
+            <li><a href="#Personas">Personas</a></li>
+            <li><a href="#Agenda">Agendas</a></li>
+            <li><a href="#Recordatorios">Recordatorios</a></li>
+            <li><a href="#Nuevo">Nuevo</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1><u>Wireframe de la Tarjeta 1.</u></h1>  
+        <p>En esta Tarjeta básicamente nos dicen que una alumna tiene problemas para manejar sus tiempos entre trabajo y estudios. <p>Ahora veremos una solución a este problema para aquellos que sufran de algo similar.</p></p>
+        <div>
+            <img src="../../imagenes/calendario-digital.png" alt="Calendario digital" id="calendario-digital">
+        </div>
+    </header>
+    <main>
+        <h2 id="Personas"><u>Personas</u></h2>
+        <div id="personas" style="background-color: chocolate; display: flex; justify-content: space-around;">
+            <div class="persona">
+                <img src="https://www.superprof.com.ar/imagenes/avisos/profesor-home-chica-anos-estudiante-relaciones-laborales-recursos-humanos-ayuda-ninos-primaria-con-sus.jpg" alt="">
+                <div style="display: block; margin-left: 50px;">
+                    <p>
+                        Características de la persona: 
+                        <ul>
+                            <li><b>Nombre</b>: Luciana Pérez</li>
+                            <br>
+                            <li><b>Edad</b>: 19 años</li>
+                            <br>
+                            <li><b>Secundaria</b>: Escuela Técnica 32 de la CABA</li>
+                            <br>
+                            <li><b>Universidad</b>: Ingeniería Automotriz en la UTN</li>
+                            <br>
+                            <li><b>Problema</b>: mal manejo de los horarios</li>
+                            <br>
+                            <li><b>Solución</b>: agenda con cada horario y actividad</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2 id="Agenda"><u>Agendas</u></h2>
+        <div class="animate__animated" style="background-color: crimson; padding: 20px;">
+            <table >
+                <caption>Agenda de Luciana Pérez</caption>
+                <thead>
+                    <th>Hora</th>
+                    <th>Domingo</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                </thead>
+                <tr>
+                    <td>08:00 a 10:00</td>
+                    <td>-</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>10:00 a 12:00</td>
+                    <td>-</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>12:00 a 13:00</td>
+                    <td>Tarea</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>Call center</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>13:00 a 15:00</td>
+                    <td>Tarea</td>
+                    <td>Lengua</td>
+                    <td>Lengua</td>
+                    <td>-</td>
+                    <td>Lengua</td>
+                    <td>Lengua</td>
+                    <td>Salida con amigos</td>
+                </tr>
+                <tr>
+                    <td>15:00 a 18:00</td>
+                    <td>Tarea</td>
+                    <td>Matemática</td>
+                    <td>Matemática</td>
+                    <td>-</td>
+                    <td>Matemática</td>
+                    <td>Matemática</td>
+                    <td>Salida con amigos</td>
+                </tr>
+                <tr>
+                    <td>18:00 a 21:00</td>
+                    <td>-</td>
+                    <td>Tecnología</td>
+                    <td>Tecnología</td>
+                    <td>-</td>
+                    <td>Tecnología</td>
+                    <td>Tecnología</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+        <h2 id="Recordatorios"><u>Recordatorios</u></h2>
+        <div id="recordatorios">
+            <ul>
+                <li>Siempre revisar el grupo de Whatsapp en caso de que alla noticias de última hora.</li>
+                <br>
+                <li>Nunca poner la diversión antes que la tarea.</li>
+                <br>
+                <li>No descansar hasta que todo el deber este hecho.</li>
+                <br>
+                <li>Siempre tener en cuenta las actividades de los días siguientes para organizarse mejor.</li>
+                <br>
+                <li>Si hay que cancelar una salida para hacer la tarea, se hace.</li>
+                <br>
+                <li>Siempre salir con tiempo extra, tanto para el trabajo como el colegio.</li>
+            </ul>
+        </div>
+        <h2 id="Nuevo"><u>Nuevo</u></h2>
+        <div style="display: block; background-color: lightblue; padding: 20px;">
+            <p style="max-width: 700px; margin: 0 auto; margin-bottom: 40px;">Si eres nuevo en esta página y tienes problemas con tus tiempos, anotate con tu foto y nombre para que los demás suscriptores te ayuden con una agenda virtual muy bien distribuida. Entre más opiniones o ideas tengas para tu agenda y horario, mejor.</p>
+            <div data-aos="fade-up">
+                <form>
+                    <fieldset id="formulario">
+                        <legend>Información del usuario</legend>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Inserte su nombre">
+                        <br>
+                        <label for="edad">Edad:</label>
+                        <input type="text" id="edad" placeholder="Inserte su edad">
+                        <br>
+                        <label for="nacimiento">Fecha de nacimiento:</label>
+                        <input type="text" id="nacimiento" placeholder="Fecha de nacimiento">
+                        <br>
+                        <label for="foto">Foto de perfil:</label>
+                        <input type="file">
+                        <br>
+                        <input type="submit" value="Publicar">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="parent">
+            <div class="div1"> </div>
+            <div class="div2"> </div>
+            <div class="div3"> </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
