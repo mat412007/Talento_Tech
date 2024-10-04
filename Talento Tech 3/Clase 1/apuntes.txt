@@ -1,0 +1,58 @@
+CLI (Command Line Interface):
+Es una interfaz de línea de comandos que te permite interactuar con tu computadora mediante comandos de texto.
+En el contexto de desarrollo web, las CLI son comunes para crear, construir y gestionar proyectos.
+
+Comandos básicos:
+- mkdir - Crear Carpeta: Este comando se utiliza para crear una nueva carpeta (directorio). Por ejemplo, para crear una carpeta llamada "mi-proyecto", ejecuta: mkdir mi-proyecto
+
+- ls - Listar Contenido: ls se utiliza para listar el contenido de un directorio. Puedes usarlo para verificar qué archivos y carpetas hay en tu ubicación actual. Por ejemplo: ls
+
+- cd - Cambiar Directorio: cd te permite cambiar el directorio actual. Por ejemplo, para ingresar a la carpeta "mi-proyecto" que creaste anteriormente: cd mi-proyecto
+
+- pwd - Mostrar Ruta Actual: pwd muestra la ruta completa del directorio en el que te encuentras actualmente. Útil para confirmar tu ubicación. Por ejemplo:
+
+Estos comandos son esenciales para navegar y organizar archivos y carpetas a través de la línea de comandos. Cuando trabajas con proyectos, a menudo estarás creando carpetas, moviéndote entre directorios y visualizando el contenido, y estos comandos te ayudarán a hacerlo de manera eficiente.
+
+----------------------------------------------------------------------------------------------------------------------
+
+Introducción a React/JSX
+React es una biblioteca de JavaScript utilizada para construir interfaces de usuario (UI) interactivas y reactivas. Fue desarrollada por Facebook y se utiliza para desarrollar aplicaciones de una sola página (Single Page Applications o SPAs) donde se requiere una experiencia de usuario dinámica y eficiente.
+
+SPA:
+Una Single Page Application (SPA) es un tipo de aplicación web que carga una sola página HTML y actualiza dinámicamente el contenido a medida que el usuario interactúa con la aplicación, en lugar de cargar páginas web completamente nuevas desde el servidor para cada interacción. En resumen, una SPA proporciona una experiencia de usuario más fluida y rápida al cargar solo la parte necesaria de la página.
+
+Características clave de React:
+1 . Componentes: La arquitectura de React se basa en el concepto de componentes. Los componentes son bloques de construcción reutilizables que encapsulan la lógica y la interfaz de usuario de una parte específica de la aplicación.
+
+2. Virtual Dom: React utiliza un Virtual DOM (Documento de Objeto Modelo) para mejorar la eficiencia de las actualizaciones en la interfaz de usuario. En lugar de actualizar directamente el DOM cada vez que cambia el estado de la aplicación, React compara el Virtual DOM con el DOM real y solo realiza las actualizaciones necesarias.
+
+3. JSX: JSX (JavaScript XML) es una extensión de JavaScript que permite escribir código que parece HTML en archivos de JavaScript. Facilita la creación de estructuras de interfaz de usuario de manera más declarativa y legible.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Vite
+Vite es un marco de desarrollo para construir aplicaciones web modernas. Su nombre proviene de la palabra francesa "vitesse", que significa velocidad, y está diseñado para ser extremadamente rápido. Vite es particularmente conocido por su rápida velocidad de desarrollo gracias a su arquitectura basada en módulos.
+
+¿Por qué Vite y cómo se relaciona con React?:
+- Rápido Desarrollo: Vite proporciona un entorno de desarrollo extremadamente rápido gracias a su arquitectura basada en módulos y el uso de ESM (ECMAScript Modules).
+
+- Eficiente durante el Desarrollo: Vite solo carga los módulos que realmente necesitas durante el desarrollo, lo que mejora significativamente los tiempos de compilación y recarga.
+
+- Configuración Mínima: Requiere una configuración mínima para empezar, lo que facilita a los principiantes comenzar a construir rápidamente sin preocuparse por configuraciones complejas.
+
+-----------------------------------------------------------------------------------------------------------------------
+Creación de una aplicación React con Vite
+Instalación de Vite
+Abre tu terminal y ejecuta el siguiente comando para instalar Vite globalmente: npm install -g create-vite
+
+Creación del Proyecto
+Crea un nuevo proyecto React utilizando Vite: create-vite my-react-app --template react
+
+Navegación al Proyecto
+Cambia el directorio del proyecto: cd my-react-app
+
+Instalación de Dependencias
+Instala las dependencias del proyecto: npm install
+
+Iniciar el Servidor de Desarrollo
+Inicia el servidor de desarrollo con el siguiente comando: npm run dev
