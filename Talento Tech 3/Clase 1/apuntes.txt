@@ -22,7 +22,7 @@ SPA:
 Una Single Page Application (SPA) es un tipo de aplicación web que carga una sola página HTML y actualiza dinámicamente el contenido a medida que el usuario interactúa con la aplicación, en lugar de cargar páginas web completamente nuevas desde el servidor para cada interacción. En resumen, una SPA proporciona una experiencia de usuario más fluida y rápida al cargar solo la parte necesaria de la página.
 
 Características clave de React:
-1 . Componentes: La arquitectura de React se basa en el concepto de componentes. Los componentes son bloques de construcción reutilizables que encapsulan la lógica y la interfaz de usuario de una parte específica de la aplicación.
+1. Componentes: La arquitectura de React se basa en el concepto de componentes. Los componentes son bloques de construcción reutilizables que encapsulan la lógica y la interfaz de usuario de una parte específica de la aplicación.
 
 2. Virtual Dom: React utiliza un Virtual DOM (Documento de Objeto Modelo) para mejorar la eficiencia de las actualizaciones en la interfaz de usuario. En lugar de actualizar directamente el DOM cada vez que cambia el estado de la aplicación, React compara el Virtual DOM con el DOM real y solo realiza las actualizaciones necesarias.
 
