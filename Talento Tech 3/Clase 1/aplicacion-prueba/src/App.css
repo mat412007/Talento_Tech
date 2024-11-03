@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -18,10 +17,38 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.card {
-  padding: 2em;
+
+.separador {
+  width: 75%;
+  height: 3px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.read-the-docs {
-  color: #888;
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 50%;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+input {
+  border-radius: 5px;
+  width: 30%;
 }

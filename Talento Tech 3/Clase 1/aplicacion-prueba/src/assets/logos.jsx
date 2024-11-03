@@ -1,6 +1,6 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './../App.css'
 
 function Logos(props, {linkVite}){ // Dos metodos similares de extraer propiedades de otro elemento
     return(
@@ -15,7 +15,7 @@ function Logos(props, {linkVite}){ // Dos metodos similares de extraer propiedad
     );
 }
 
-export default 
+export default Logos
 
 {/* 
 import './App.css'
