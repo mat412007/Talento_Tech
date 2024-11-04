@@ -1,0 +1,59 @@
+import React, { useState, useEffect } from 'react';
+
+const MiComponente = () => {
+// Declaración de estado
+const [contador, setContador] = useState(0);
+// Uso del estado en el componente
+return (
+<div>
+<p>Contador: {contador}</p>
+<button onClick={() => setContador(contador + 1)}>Incrementar</button>
+</div>
+);
+};
+
+
+
+const MiComponente = ({ condicion }) => {
+if (condicion) {
+return <p>Contenido cuando la condición es verdadera</p>;
+} else {
+return <p>Contenido cuando la condición es falsa</p>;
+}
+};
+
+
+const MiComponente = ({ condicion }) => {
+return (
+<div>
+{condicion ? (
+<p>Contenido cuando la condición es verdadera</p>
+) : (
+<p>Contenido cuando la condición es falsa</p>
+)}
+</div>
+);
+}
+
+
+const App = () => {
+const isLoggedIn = true; // Cambia esto según el estado de autenticación de tu aplicación
+return (
+<div>
+{isLoggedIn && <p>¡Bienvenido! Estás autenticado.</p>}
+</div>
+);
+};
+
+
+
+useEffect(() => {
+// Replace this URL with the actual API endpoint
+const apiUrl = 'https://jsonplaceholder.typicode.com/users/1';
+// Hacer la solicitud a la API
+fetch(apiUrl)
+.then(response => response.json())
+.then(data => setPosts(data))
+.catch(error => setError(error.message))
+.finally(() => setLoading(false));
+}, []);

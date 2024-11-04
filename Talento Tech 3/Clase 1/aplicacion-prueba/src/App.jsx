@@ -1,4 +1,17 @@
+import React from 'react';
 import './App.css'
+import TaskList from './TaskList';
+
+
+/*const App = () => {
+  return (
+  <div id="app">
+    <TaskList />
+  </div>
+  );
+};
+
+export default App; */
 
 function App() {
   
@@ -15,7 +28,6 @@ function App() {
   }
 
   
-
   return (
     <>
       <h1>TO-DO-NOW</h1>
@@ -27,4 +39,4 @@ function App() {
   );
 }
 
-export default App
+export default App 
